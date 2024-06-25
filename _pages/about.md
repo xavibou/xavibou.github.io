@@ -10,15 +10,15 @@ I am a PhD Candidate in Image Processing and Computer Vision at Centre Borelli, 
 
 Research
 ======
-<table>
+<table style="border-collapse: collapse; width: 100%;">
   {% for post in site.posts %}
     {% for cat in post.categories %}
       {% if cat == 'research' %}
-        <tr>
-          <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+        <tr style="border: none;">
+          <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px;border: none;">
             <img src="{{ post.image }}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
           </td>
-          <td style="padding:2.5%;width:75%;vertical-align:middle">
+          <td style="padding:2.5%;width:75%;vertical-align:middle;border: none;">
             <h3>{{ post.title }}</h3>
             <br>
             {{ post.authors }}
