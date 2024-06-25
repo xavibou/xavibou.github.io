@@ -10,7 +10,7 @@ I am a PhD Candidate in Image Processing and Computer Vision at Centre Borelli, 
 
 Research
 ======
-<table style="border-collapse: collapse; width: 100%;">
+<table style="border-collapse: collapse; width: 100%; border: none;">
   {% for post in site.posts %}
     {% for cat in post.categories %}
       {% if cat == 'research' %}
