@@ -21,10 +21,10 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile_pic.jpeg"
   name             : "Xavier Bou"
   pronouns         : # example: "she/her"  
-  bio              : "I am a PhD Candidate in Image Processing and Computer Vision at Centre Borelli, Êcole Normale Superieure Paris-Saclay"
+  bio              : "I am a PhD Candidate in Image Processing and Computer Vision at Centre Borelli, Ecole Normale Superieure Paris-Saclay"
   location         : "Paris, France"
   employer         : "ENS Paris-Saclay"
   uri              : # URL
