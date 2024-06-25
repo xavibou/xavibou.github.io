@@ -25,30 +25,30 @@ author:
   name             : "Xavier Bou"
   pronouns         : # example: "she/her"  
   bio              : "I am a PhD Candidate in Image Processing and Computer Vision at Centre Borelli, Êcole Normale Superieure Paris-Saclay"
-  location         : "Earth"
+  location         : "Paris, France"
   employer         : "ENS Paris-Saclay"
   uri              : # URL
   email            : "xavibouhae@gmail.com" 
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  arxiv            : "https://arxiv.org/search/cs?searchtype=author&query=Bou,+X"
+  googlescholar    : "https://scholar.google.com/citations?user=oxxyz2cAAAAJ&hl=ca"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #
   researchgate     : # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "xavibou"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "xavier-bou-hernandez-39b517134/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
