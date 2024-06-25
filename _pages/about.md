@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a PhD Candidate in Image Processing and Computer Vision at Centre Borelli, Ecole Normale Superieure Paris-Saclay
+I am a PhD Candidate in Image Processing and Computer Vision at Centre Borelli, Ecole Normale Superieure Paris-Saclay. I work on change detection on satellite imagery and video. I am interested in problems with limited annotations, i.e. unsupervised, few-shot and self-supervised.
 
 Research
 ======
