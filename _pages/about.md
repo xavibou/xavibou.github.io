@@ -6,14 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<style>
-  body {
-    font-size: 0.9em;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    font-size: 1.3em;
-  }
-</style>
 
 I am a PhD Candidate in Image Processing and Computer Vision at [ENS Paris-Saclay](https://ens-paris-saclay.fr/). I work on change detection on satellite imagery and video. I am interested in problems with limited annotations, i.e. unsupervised, few-shot and self-supervised.
 
