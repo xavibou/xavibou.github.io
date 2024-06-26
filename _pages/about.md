@@ -23,11 +23,11 @@ Research
             <p style="margin: 5px 0;">{{ post.authors }}</p>
             <p style="margin: 5px 0;"><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
             <p style="margin: 5px 0;">
-              {% if post.paper %}<a href="{{ post.paper }}">paper</a> / {% endif %}
-              {% if post.video %}<a href="{{ post.video }}">video</a> / {% endif %}
-              {% if post.code %}<a href="{{ post.code }}">code</a> / {% endif %}
-              {% if post.poster %}<a href="{{ post.poster }}">poster</a> / {% endif %}
-              {% if post.slides %}<a href="{{ post.slides }}">slides</a> / {% endif %}
+              {% if post.paper %}<a href="{{ post.paper }}">paper</a>  {% endif %}
+              {% if post.video %}<a href=" / {{ post.video }}">video</a>  {% endif %}
+              {% if post.code %}<a href=" / {{ post.code }}">code</a>  {% endif %}
+              {% if post.poster %}<a href=" / {{ post.poster }}">poster</a>  {% endif %}
+              {% if post.slides %}<a href=" / {{ post.slides }}">slides</a>  {% endif %}
             </p>
             <p style="margin: 5px 0;">{{ post.excerpt }}</p>
           </td>
