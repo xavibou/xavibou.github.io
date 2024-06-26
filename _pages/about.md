@@ -18,7 +18,7 @@ redirect_from:
   }
 </style>
 
-I am a PhD Candidate in Image Processing and Computer Vision at [ENS Paris-Saclay](https://ens-paris-saclay.fr/). I work on change detection on satellite imagery and video. I am interested in problems with limited annotations, i.e. unsupervised, few-shot and self-supervised.
+I am a PhD Candidate in Image Processing and Computer Vision at [ENS Paris-Saclay](https://ens-paris-saclay.fr/). I work on change detection on satellite imagery and video. I am interested in problems with limited annotations, i.e. unsupervised, few-shot and self-supervised learning methods.
 
 News
 ======
