@@ -11,7 +11,7 @@ redirect_from:
     font-size: 0.9em;
   }
   h1, h2, h3, h4, h5, h6 {
-    font-size: 1em;
+    font-size: 1.3em;
   }
 </style>
 
