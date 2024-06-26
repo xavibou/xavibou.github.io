@@ -13,6 +13,9 @@ redirect_from:
   h1, h2, h3, h4, h5, h6 {
     font-size: 1.3em;
   }
+  .research-section {
+    font-size: 1.1em; /* Adjust the font size as needed */
+  }
 </style>
 
 I am a PhD Candidate in Image Processing and Computer Vision at [ENS Paris-Saclay](https://ens-paris-saclay.fr/). I work on change detection on satellite imagery and video. I am interested in problems with limited annotations, i.e. unsupervised, few-shot and self-supervised.
@@ -27,31 +30,33 @@ News
 
 Research
 ======
-<table style="border-collapse: collapse; width: 100%; border: none;">
-  {% for post in site.posts %}
-    {% for cat in post.categories %}
-      {% if cat == 'research' %}
-        <tr style="border: none;">
-          <td style="padding:1%;width:35%;vertical-align:middle;min-width:200px;border: none;">
-            <img src="{{ post.image }}" alt="project image" style="width:100%; height:auto; max-width:100%;" />
-          </td>
-          <td style="padding:1%;width:65%;vertical-align:middle;border: none;">
-            <h3 style="margin: 5px 0;">{{ post.title }}</h3>
-            <p style="margin: 5px 0;">{{ post.authors }}</p>
-            <p style="margin: 5px 0;"><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
-            <p style="margin: 5px 0;">
-              {% assign links = "" %}
-              {% if post.paper %}{% assign links = links | append: '<a href="' | append: post.paper | append: '">paper</a>' %}{% endif %}
-              {% if post.video %}{% if links != "" %}{% assign links = links | append: ' / ' %}{% endif %}{% assign links = links | append: '<a href="' | append: post.video | append: '">video</a>' %}{% endif %}
-              {% if post.code %}{% if links != "" %}{% assign links = links | append: ' / ' %}{% endif %}{% assign links = links | append: '<a href="' | append: post.code | append: '">code</a>' %}{% endif %}
-              {% if post.poster %}{% if links != "" %}{% assign links = links | append: ' / ' %}{% endif %}{% assign links = links | append: '<a href="' | append: post.poster | append: '">poster</a>' %}{% endif %}
-              {% if post.slides %}{% if links != "" %}{% assign links = links | append: ' / ' %}{% endif %}{% assign links = links | append: '<a href="' | append: post.slides | append: '">slides</a>' %}{% endif %}
-              {{ links | strip_newlines }}
-            </p>
-            <p style="margin: 5px 0;">{{ post.excerpt }}</p>
-          </td>
-        </tr>
-      {% endif %}
+<div class="research-section">
+  <table style="border-collapse: collapse; width: 100%; border: none;">
+    {% for post in site.posts %}
+      {% for cat in post.categories %}
+        {% if cat == 'research' %}
+          <tr style="border: none;">
+            <td style="padding:1%;width:35%;vertical-align:middle;min-width:200px;border: none;">
+              <img src="{{ post.image }}" alt="project image" style="width:100%; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:1%;width:65%;vertical-align:middle;border: none;">
+              <h3 style="margin: 5px 0;">{{ post.title }}</h3>
+              <p style="margin: 5px 0;">{{ post.authors }}</p>
+              <p style="margin: 5px 0;"><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
+              <p style="margin: 5px 0;">
+                {% assign links = "" %}
+                {% if post.paper %}{% assign links = links | append: '<a href="' | append: post.paper | append: '">paper</a>' %}{% endif %}
+                {% if post.video %}{% if links != "" %}{% assign links = links | append: ' / ' %}{% endif %}{% assign links = links | append: '<a href="' | append: post.video | append: '">video</a>' %}{% endif %}
+                {% if post.code %}{% if links != "" %}{% assign links = links | append: ' / ' %}{% endif %}{% assign links = links | append: '<a href="' | append: post.code | append: '">code</a>' %}{% endif %}
+                {% if post.poster %}{% if links != "" %}{% assign links = links | append: ' / ' %}{% endif %}{% assign links = links | append: '<a href="' | append: post.poster | append: '">poster</a>' %}{% endif %}
+                {% if post.slides %}{% if links != "" %}{% assign links = links | append: ' / ' %}{% endif %}{% assign links = links | append: '<a href="' | append: post.slides | append: '">slides</a>' %}{% endif %}
+                {{ links | strip_newlines }}
+              </p>
+              <p style="margin: 5px 0;">{{ post.excerpt }}</p>
+            </td>
+          </tr>
+        {% endif %}
+      {% endfor %}
     {% endfor %}
-  {% endfor %}
-</table>
+  </table>
+</div>
