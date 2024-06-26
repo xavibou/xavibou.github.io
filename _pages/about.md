@@ -14,7 +14,7 @@ redirect_from:
     font-size: 1.3em;
   }
   .research-section {
-    font-size: 1.3em; /* Adjust the font size as needed */
+    font-size: 1.2em; /* Adjust the font size as needed */
   }
 </style>
 
