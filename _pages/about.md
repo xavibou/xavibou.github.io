@@ -6,13 +6,22 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<style>
+  body {
+    font-size: 0.9em;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 0.9em;
+  }
+</style>
+
 I am a PhD Candidate in Image Processing and Computer Vision at [ENS Paris-Saclay](https://ens-paris-saclay.fr/). I work on change detection on satellite imagery and video. I am interested in problems with limited annotations, i.e. unsupervised, few-shot and self-supervised.
 
 News
 ======
-**April 2024**: Our paper [Exploring Robust Features for Few-Shot Object Detection in Satellite Imagery](https://arxiv.org/abs/2403.05381) has been accepted at the EarthVision Workshop at CVPR24.
-**March 2024**: Our paper [Portraying the Need for Temporal Data in Flood Detection via Sentinel-1](https://arxiv.org/abs/2403.03671) has been accepted at the IGARSS24.
-**March 2023**: I am visiting the [Guillermo Sapiro's group] (https://ece.duke.edu/faculty/guillermo-sapiro) at Duke University with a team led by [Jean-Michel Morel](https://sites.google.com/site/jeanmichelmorelcmlaenscachan/)
+- **April 2024**: Our paper [Exploring Robust Features for Few-Shot Object Detection in Satellite Imagery](https://arxiv.org/abs/2403.05381) has been accepted at the EarthVision Workshop at CVPR24.
+- **March 2024**: Our paper [Portraying the Need for Temporal Data in Flood Detection via Sentinel-1](https://arxiv.org/abs/2403.03671) has been accepted at the IGARSS24.
+- **March 2023**: I am visiting the [Guillermo Sapiro's group](https://ece.duke.edu/faculty/guillermo-sapiro) at Duke University with a team led by [Jean-Michel Morel](https://sites.google.com/site/jeanmichelmorelcmlaenscachan/)
 
 Research
 ======
