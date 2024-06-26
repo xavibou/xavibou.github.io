@@ -23,11 +23,13 @@ Research
             <p style="margin: 5px 0;">{{ post.authors }}</p>
             <p style="margin: 5px 0;"><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
             <p style="margin: 5px 0;">
-              {% if post.paper %}<a href="{{ post.paper }}">paper</a>  {% endif %}
-              {% if post.video %}<a href=" / {{ post.video }}">video</a>  {% endif %}
-              {% if post.code %}<a href=" / {{ post.code }}">code</a>  {% endif %}
-              {% if post.poster %}<a href=" / {{ post.poster }}">poster</a>  {% endif %}
-              {% if post.slides %}<a href=" / {{ post.slides }}">slides</a>  {% endif %}
+              {% assign links = "" %}
+              {% if post.paper %}{% assign links = links | append: '<a href="' | append: post.paper | append: '">paper</a>' %}{% endif %}
+              {% if post.video %}{% if links != "" %}{% assign links = links | append: ' / ' %}{% endif %}{% assign links = links | append: '<a href="' | append: post.video | append: '">video</a>' %}{% endif %}
+              {% if post.code %}{% if links != "" %}{% assign links = links | append: ' / ' %}{% endif %}{% assign links = links | append: '<a href="' | append: post.code | append: '">code</a>' %}{% endif %}
+              {% if post.poster %}{% if links != "" %}{% assign links = links | append: ' / ' %}{% endif %}{% assign links = links | append: '<a href="' | append: post.poster | append: '">poster</a>' %}{% endif %}
+              {% if post.slides %}{% if links != "" %}{% assign links = links | append: ' / ' %}{% endif %}{% assign links = links | append: '<a href="' | append: post.slides | append: '">slides</a>' %}{% endif %}
+              {{ links | strip_newlines }}
             </p>
             <p style="margin: 5px 0;">{{ post.excerpt }}</p>
           </td>
