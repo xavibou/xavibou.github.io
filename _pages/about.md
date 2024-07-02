@@ -28,7 +28,7 @@ News
 - **November 2022**: I am starting my PhD at [Centre Borelli](https://centreborelli.ens-paris-saclay.fr/en), ENS Paris-Saclay, advised by [Rafael Grompone](https://www.rafaelgrompone.org/) and [Thibaud Ehret](https://tehret.github.io/).
 - **February 2022**: I am joining the Centre Borelli as a research intern, advised by [Jean-Michel Morel](https://sites.google.com/site/jeanmichelmorelcmlaenscachan/) and [Gabriele Facciolo](https://dev.ipol.im/~facciolo/).
 
-Research
+Publications
 ======
 <div class="research-section">
   <table style="border-collapse: collapse; width: 100%; border: none;">
