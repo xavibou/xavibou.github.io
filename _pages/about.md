@@ -22,7 +22,8 @@ I am a PhD Candidate in Image Processing and Computer Vision at [ENS Paris-Sacla
 
 News
 ======
-- **April 2024**: Our paper [Exploring Robust Features for Few-Shot Object Detection in Satellite Imagery](https://arxiv.org/abs/2403.05381) has been accepted ot the EarthVision Workshop at CVPR24.
+- **July 2025**: Our paper [Towards Large Scale Geostatistical Methane Monitoring with Part-based Object Detection](https://arxiv.org/abs/2507.18513) has been accepted to the SEA Workshop at ICCV25.
+- **April 2024**: Our paper [Exploring Robust Features for Few-Shot Object Detection in Satellite Imagery](https://arxiv.org/abs/2403.05381) has been accepted to the EarthVision Workshop at CVPR24.
 - **March 2024**: Our paper [Portraying the Need for Temporal Data in Flood Detection via Sentinel-1](https://arxiv.org/abs/2403.03671) has been accepted to IGARSS24.
 - **March 2023**: I am visiting [Guillermo Sapiro's group](https://ece.duke.edu/faculty/guillermo-sapiro) at Duke University with a team led by [Jean-Michel Morel](https://sites.google.com/site/jeanmichelmorelcmlaenscachan/).
 - **November 2022**: I am starting my PhD at [Centre Borelli](https://centreborelli.ens-paris-saclay.fr/en), ENS Paris-Saclay, advised by [Rafael Grompone](https://www.rafaelgrompone.org/) and [Thibaud Ehret](https://tehret.github.io/).
